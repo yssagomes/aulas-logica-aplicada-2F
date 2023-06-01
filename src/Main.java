@@ -21,14 +21,19 @@ public class Main {
 
         //Criar mais objetos
         Pessoa qualquer  = new Pessoa();
+
         //Declarar objeto
         Pessoa rainha;
+
         //instanciação do objeto
         rainha = new Pessoa();
+
         //Definindo forma da pessoa
         rainha.nome = "Tina";
         rainha.sobrenome = "Turner";
+
         //Definição de comportamento
         System.out.println(rainha.falar("alto"));
+        rainha.comer();
     }
 }
